@@ -15,9 +15,6 @@ public enum PlayerPowers
 
 public class PlayerSongs : MonoBehaviour {
 
-
-    
-
     public string[] powerButtons = { Constants.BUTTON_A, Constants.BUTTON_X, Constants.BUTTON_B, Constants.BUTTON_Y };
 
     public bool[] unlockedPowers;
@@ -59,5 +56,10 @@ public class PlayerSongs : MonoBehaviour {
 
         powerCallbacks[powerNum].AddListener(action);
 
+    }
+
+    public bool IsPowerActive(PlayerPowers power)
+    {
+        return activatedPowers[(int)power];
     }
 }

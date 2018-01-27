@@ -15,7 +15,9 @@ public class PowerText : MonoBehaviour {
 	void Start () {
         textComponent = GetComponent<Text>();
 
-        FindObjectOfType<PlayerSongs>().AddPowerListener(power, ToggleText);
+        PlayerSongs songs = FindObjectOfType<PlayerSongs>();
+        songs.AddPowerListener(power, ToggleText);
+        ToggleText(songs.IsPowerActive(power));
 	}
 	
 
