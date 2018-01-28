@@ -39,12 +39,14 @@ public class TileMovement : MonoBehaviour {
         }
 	}
 
+    [Button]
     public bool MoveUp()
     {
         Vector2 direction = Vector2.up;
         return MoveDirection(direction);
     }
 
+    [Button]
     public bool MoveDown()
     {
         Vector2 direction = Vector2.down;

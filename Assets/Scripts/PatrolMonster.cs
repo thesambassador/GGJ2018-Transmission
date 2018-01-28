@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 using NaughtyAttributes;
 
 public class PatrolMonster : MonoBehaviour
@@ -89,12 +90,14 @@ public class PatrolMonster : MonoBehaviour
     public void SetPosition1()
     {
         position1 = transform.position;
+        EditorUtility.SetDirty(this);
     }
 
     [Button]
     public void SetPosition2()
     {
         position2 = transform.position;
+        EditorUtility.SetDirty(this);
     }
 
 
