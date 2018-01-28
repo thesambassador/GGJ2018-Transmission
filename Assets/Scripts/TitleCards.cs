@@ -11,6 +11,8 @@ public class TitleCards : MonoBehaviour {
     public float fadeTime = 1;
     public float pauseTime = 2;
 
+    public bool faded;
+
 	// Use this for initialization
 	void Start () {
         groups = new CanvasGroup[transform.childCount];
@@ -29,7 +31,10 @@ public class TitleCards : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(Input.anyKey && faded)
+        {
+            StartCoroutine("FadeOut");
+        }
 	}
 
     IEnumerator FadeIn()
@@ -44,7 +49,8 @@ public class TitleCards : MonoBehaviour {
             groups[currentIndex].alpha = alpha;
             yield return null;
         }
-        StartCoroutine("FadePause");
+
+        faded = true;
     }
 
     IEnumerator FadePause()
@@ -55,6 +61,7 @@ public class TitleCards : MonoBehaviour {
 
     IEnumerator FadeOut()
     {
+        faded = false;
         float alpha = 0;
         float time = 0;
         while (groups[currentIndex].alpha > 0)
@@ -69,6 +76,10 @@ public class TitleCards : MonoBehaviour {
         if (currentIndex < groups.Length)
         {
             StartCoroutine("FadeIn");
+        }
+        else
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(1);
         }
     }
 }

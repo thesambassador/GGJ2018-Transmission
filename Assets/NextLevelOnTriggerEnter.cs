@@ -28,7 +28,8 @@ public class NextLevelOnTriggerEnter : MonoBehaviour {
             {
                 nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
             }
-            SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(nextSceneIndex));
+            print(nextSceneIndex);
+            SceneManager.LoadScene(nextSceneIndex);
 
         }
     }

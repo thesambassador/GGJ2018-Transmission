@@ -40,7 +40,9 @@ public class PlayerSongs : MonoBehaviour {
     public PowerToggleEvent[] powerCallbacks;
 
     public CanvasGroup flashEffect;
-    public Text gainPowerText;
+    public Text fearText;
+    public Text sadnessText;
+    public Text angerText;
 
     int powerNumber = 3;
 
@@ -101,18 +103,28 @@ public class PlayerSongs : MonoBehaviour {
         if (collision.gameObject.tag == "Sadness")
         {
             TriggerGainPowerEffect(PlayerPowers.Sadness);
+            sadnessText.gameObject.SetActive(true);
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.tag == "Fear")
+        {
+            TriggerGainPowerEffect(PlayerPowers.Fear);
+            fearText.gameObject.SetActive(true);
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "Anger")
+        {
+            TriggerGainPowerEffect(PlayerPowers.Anger);
+            angerText.gameObject.SetActive(true);
+            Destroy(collision.gameObject);
+        }
+
     }
 
     public void TriggerGainPowerEffect(PlayerPowers powerType)
     {
         StartCoroutine("FlashScreenWhite", 5);
 
-        if (gainPowerText!=null)
-        {
-            gainPowerText.enabled = true;
-        }
 
         unlockedPowers[(int)powerType] = true;
     }

@@ -59,7 +59,7 @@ public class PushSlideBlock : MonoBehaviour
                 if (_pushTimer >= PushTime)
                 {
                     slideVector = VectorOppositePlayer(collision.gameObject.transform.position);
-                    RaycastHit2D hit = Physics2D.Raycast(transform.position, slideVector, 3000, LayerMask.GetMask("World"));
+                    RaycastHit2D hit = Physics2D.Raycast(transform.position, slideVector, 3000, slideMask);
                     if (hit.collider != null)
                     {
                         _pushTimer = 0;

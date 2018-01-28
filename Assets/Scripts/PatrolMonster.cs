@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 using NaughtyAttributes;
 
 public class PatrolMonster : MonoBehaviour
@@ -60,7 +61,7 @@ public class PatrolMonster : MonoBehaviour
         }
         //transform.position = Vector2.MoveTowards(transform.position, currentTargetPosition, moveSpeed * Time.deltaTime);
 
-       // _rigidBody.MovePosition(Vector2.MoveTowards(transform.position, currentTargetPosition, moveSpeed * Time.deltaTime));
+        // _rigidBody.MovePosition(Vector2.MoveTowards(transform.position, currentTargetPosition, moveSpeed * Time.deltaTime));
     }
 
     void SwapTargetPosition()
@@ -122,5 +123,12 @@ public class PatrolMonster : MonoBehaviour
         EditorUtility.SetDirty(this);
     }
 
+    public void OnCollisionEnter2D(Collision2D collision) { 
+    
+        if(collision.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
 
+    }
 }

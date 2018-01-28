@@ -6,8 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/title.unity
+    guid: e20a1a5406b6b37448eec89b5c8fb87b
+  - enabled: 1
     path: Assets/Scenes/start.unity
     guid: 1044bc9930079b14588af85075aa301f
   - enabled: 1
     path: Assets/Scenes/l1.unity
     guid: 8e69ae582f6dddd4a8637677d2a02122
+  - enabled: 1
+    path: Assets/Scenes/l2.unity
+    guid: 6b6c2830a5becbc44bae15cf4d6768c1
+  - enabled: 1
+    path: Assets/Scenes/l3-sorrow.unity
+    guid: 7787e169662e69646a6730c5b5797d05
+  - enabled: 1
+    path: Assets/Scenes/l-fear.unity
+    guid: 9169bb009c4786543bd5cc1db834f72e
+  - enabled: 1
+    path: Assets/Scenes/hub.unity
+    guid: 834bfb18c65456f4a87909939cb081fa
