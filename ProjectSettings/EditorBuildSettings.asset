@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/l3-sorrow.unity
     guid: 7787e169662e69646a6730c5b5797d05
   - enabled: 1
+    path: Assets/Scenes/l4.unity
+    guid: 8449602ba7644544f9f00a052c66f0fb
+  - enabled: 1
     path: Assets/Scenes/l-fear.unity
     guid: 9169bb009c4786543bd5cc1db834f72e
   - enabled: 1

@@ -51115,6 +51115,16 @@ Prefab:
       propertyPath: clipAmbientNeutral
       value: 
       objectReference: {fileID: 8300000, guid: e476a617bae3d5840955c5588c4fc547, type: 3}
+    - target: {fileID: 114286913505543976, guid: 8626665a2633ffd44a920faf6dd36869,
+        type: 2}
+      propertyPath: levelStartPowers.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114286913505543976, guid: 8626665a2633ffd44a920faf6dd36869,
+        type: 2}
+      propertyPath: levelStartPowers.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8626665a2633ffd44a920faf6dd36869, type: 2}
   m_IsPrefabParent: 0

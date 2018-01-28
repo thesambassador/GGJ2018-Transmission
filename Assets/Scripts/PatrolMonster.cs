@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+//using UnityEditor;
 using UnityEngine.SceneManagement;
 using NaughtyAttributes;
 
@@ -113,19 +113,19 @@ public class PatrolMonster : MonoBehaviour
     public void SetPosition1()
     {
         position1 = transform.position;
-        EditorUtility.SetDirty(this);
+        //EditorUtility.SetDirty(this);
     }
 
     [Button]
     public void SetPosition2()
     {
         position2 = transform.position;
-        EditorUtility.SetDirty(this);
+       // EditorUtility.SetDirty(this);
     }
 
     public void OnCollisionEnter2D(Collision2D collision) { 
     
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Player" && !stopped)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }

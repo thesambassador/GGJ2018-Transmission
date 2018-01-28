@@ -22,8 +22,8 @@ public class PowerToggleEvent : UnityEvent<PowerEventData> {}
 public enum PlayerPowers
 {
     Sadness = 0,
-    Anger = 1,
-    Fear = 2,
+    Fear = 1,
+    Anger = 2,
     Joy = 3
 };
 
