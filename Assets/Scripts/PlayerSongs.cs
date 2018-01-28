@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class PowerEventData
 {
@@ -28,26 +29,44 @@ public enum PlayerPowers
 
 public class PlayerSongs : MonoBehaviour {
 
+    public static bool[] unlockedPowers;
+
     public string[] powerButtons = { Constants.BUTTON_A, Constants.BUTTON_X, Constants.BUTTON_B, Constants.BUTTON_Y };
 
-    public bool[] unlockedPowers;
+    public bool[] levelStartPowers;
     public bool[] activatedPowers;
     public float[] powerRanges;
 
     public PowerToggleEvent[] powerCallbacks;
 
+    public CanvasGroup flashEffect;
+    public Text gainPowerText;
+
+    int powerNumber = 3;
+
 	// Use this for initialization
 	void Awake () {
-        powerCallbacks = new PowerToggleEvent[4];
-        for (int i = 0; i < 4; i++) {
+        flashEffect = GameObject.FindGameObjectWithTag("FlashEffect").GetComponent<CanvasGroup>();
+        powerCallbacks = new PowerToggleEvent[powerNumber];
+        for (int i = 0; i < powerNumber; i++)
+        {
             powerCallbacks[i] = new PowerToggleEvent();
 		}
+
+        if (unlockedPowers == null)
+        {
+            unlockedPowers = new bool[powerNumber];
+            for (int i = 0; i < powerNumber; i++)
+            {
+                unlockedPowers[i] = levelStartPowers[i];
+            }
+        }
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        for (int i = 0; i < 4; i++){
+        for (int i = 0; i < powerNumber; i++){
             if(unlockedPowers[i] && Input.GetButtonDown(powerButtons[i])){
                 print(i);
                 TogglePower(i);
@@ -76,4 +95,43 @@ public class PlayerSongs : MonoBehaviour {
     {
         return activatedPowers[(int)power];
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Sadness")
+        {
+            TriggerGainPowerEffect(PlayerPowers.Sadness);
+            Destroy(collision.gameObject);
+        }
+    }
+
+    public void TriggerGainPowerEffect(PlayerPowers powerType)
+    {
+        StartCoroutine("FlashScreenWhite", 5);
+
+        if (gainPowerText!=null)
+        {
+            gainPowerText.enabled = true;
+        }
+
+        unlockedPowers[(int)powerType] = true;
+    }
+
+    IEnumerator FlashScreenWhite(float fadeTime)
+    {
+        while (flashEffect.alpha < 1)
+        {
+            flashEffect.alpha += (Time.deltaTime * fadeTime);
+            flashEffect.alpha = Mathf.Clamp(flashEffect.alpha, 0, 1);
+            yield return null;
+        }
+
+        while (flashEffect.alpha > 0)
+        {
+            flashEffect.alpha -= (Time.deltaTime * fadeTime);
+            flashEffect.alpha = Mathf.Clamp(flashEffect.alpha, 0, 1);
+            yield return null;
+        }
+    }
+
 }

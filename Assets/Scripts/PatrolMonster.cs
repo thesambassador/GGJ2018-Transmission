@@ -20,7 +20,7 @@ public class PatrolMonster : MonoBehaviour
 
     public LayerMask raycastMask;
 
-    private TileMovement _tileMovement;
+    public TileMovement _tileMovement;
 
     public bool stopped = false;
 
@@ -44,7 +44,6 @@ public class PatrolMonster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (!stopped && moving)
         {
             if (!_tileMovement.moving)
