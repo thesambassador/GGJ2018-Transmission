@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using NaughtyAttributes;
+
 public class OnOffWall : MonoBehaviour {
 
     public PlayerPowers activationPower;
@@ -14,15 +16,20 @@ public class OnOffWall : MonoBehaviour {
     SpriteRenderer spriteRenderer;
     BoxCollider2D boxCollider;
 
+    Animator _animator;
+
     // Use this for initialization
     void Start()
     {
+        _animator = GetComponent<Animator>();
         PlayerSongs ps = FindObjectOfType<PlayerSongs>();
         ps.AddPowerListener(activationPower, Activate);
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         boxCollider = GetComponent<BoxCollider2D>();
         Activate(false);
+
+        
 
     }
 
@@ -32,18 +39,35 @@ public class OnOffWall : MonoBehaviour {
        
     }
 
+    [Button]
+    void RaiseWall()
+    {
+        _animator.Play("RaiseWall", 0, 0);
+        _animator.SetFloat("speed", 1);
+        boxCollider.enabled = true;
+    }
+    [Button]
+    void LowerWall()
+    {
+        _animator.Play("RaiseWall", 0, 1);
+        _animator.SetFloat("speed", -1);
+        boxCollider.enabled = false;
+    }
+
     void Activate(bool powerOn)
     {
         bool up = startsUp && !powerOn;
 
         if (up)
         {
-            spriteRenderer.sprite = upSprite;
+            RaiseWall();
+            //spriteRenderer.sprite = upSprite;
 
         }
         else
         {
-            spriteRenderer.sprite = downSprite;
+            LowerWall();
+            //spriteRenderer.sprite = downSprite;
         }
 
         boxCollider.enabled = up;

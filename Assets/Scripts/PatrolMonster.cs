@@ -24,6 +24,12 @@ public class PatrolMonster : MonoBehaviour
 
     public bool stopped = false;
 
+    public float pauseTime = 1;
+
+    private bool moving = true;
+
+    private Animator _animator;
+
     // Use this for initialization
     void Start()
     {
@@ -32,13 +38,14 @@ public class PatrolMonster : MonoBehaviour
         currentTargetPosition = position2;
         _rigidBody = GetComponent<Rigidbody2D>();
         _tileMovement = GetComponent<TileMovement>();
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (!stopped)
+        if (!stopped && moving)
         {
             if (!_tileMovement.moving)
             {
@@ -69,7 +76,7 @@ public class PatrolMonster : MonoBehaviour
         }
 
         goalIsPosition1 = !goalIsPosition1;
-
+        StartCoroutine("StopMovingForTime");
     }
 
     public Vector2 VectorTowardsTarget()
@@ -78,12 +85,28 @@ public class PatrolMonster : MonoBehaviour
         return result.normalized;
     }
 
-    void Activate(PowerEventData on)
+    public void Activate(PowerEventData on)
     {
         if (Vector2.Distance(transform.position, on.playerPosition) < on.radius)
         {
             stopped = on.active;
         }
+
+        if (stopped)
+        {
+            _animator.SetTrigger("Freeze");
+        }
+        else
+        {
+            _animator.SetTrigger("Unfreeze");
+        }
+    }
+
+    IEnumerator StopMovingForTime()
+    {
+        moving = false;
+        yield return new WaitForSeconds(pauseTime);
+        moving = true;
     }
 
     [Button]

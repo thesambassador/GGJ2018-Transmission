@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Level
   - MovingObject
+  - Sadness
+  - Anger
+  - Fear
+  - Joy
+  - LevelEnd
   layers:
   - Default
   - TransparentFX
@@ -18,8 +23,8 @@ TagManager:
   - World
   - MoveableObject
   - PatrolGuy
-  - 
-  - 
+  - BoulderOnlyLayer
+  - Player
   - 
   - 
   - 

@@ -1,0 +1,1597 @@
+fileFormatVersion: 2
+guid: abfb014f0b6748745a5b755f1e596b7c
+timeCreated: 1517153838
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sadness-500x250_0
+    21300002: sadness-500x250_1
+    21300004: sadness-500x250_2
+    21300006: sadness-500x250_3
+    21300008: sadness-500x250_4
+    21300010: sadness-500x250_5
+    21300012: sadness-500x250_6
+    21300014: sadness-500x250_7
+    21300016: sadness-500x250_8
+    21300018: sadness-500x250_9
+    21300020: sadness-500x250_10
+    21300022: sadness-500x250_11
+    21300024: sadness-500x250_12
+    21300026: sadness-500x250_13
+    21300028: sadness-500x250_14
+    21300030: sadness-500x250_15
+    21300032: sadness-500x250_16
+    21300034: sadness-500x250_17
+    21300036: sadness-500x250_18
+    21300038: sadness-500x250_19
+    21300040: sadness-500x250_20
+    21300042: sadness-500x250_21
+    21300044: sadness-500x250_22
+    21300046: sadness-500x250_23
+    21300048: sadness-500x250_24
+    21300050: sadness-500x250_25
+    21300052: sadness-500x250_26
+    21300054: sadness-500x250_27
+    21300056: sadness-500x250_28
+    21300058: sadness-500x250_29
+    21300060: sadness-500x250_30
+    21300062: sadness-500x250_31
+    21300064: sadness-500x250_32
+    21300066: sadness-500x250_33
+    21300068: sadness-500x250_34
+    21300070: sadness-500x250_35
+    21300072: sadness-500x250_36
+    21300074: sadness-500x250_37
+    21300076: sadness-500x250_38
+    21300078: sadness-500x250_39
+    21300080: sadness-500x250_40
+    21300082: sadness-500x250_41
+    21300084: sadness-500x250_42
+    21300086: sadness-500x250_43
+    21300088: sadness-500x250_44
+    21300090: sadness-500x250_45
+    21300092: sadness-500x250_46
+    21300094: sadness-500x250_47
+    21300096: sadness-500x250_48
+    21300098: sadness-500x250_49
+    21300100: sadness-500x250_50
+    21300102: sadness-500x250_51
+    21300104: sadness-500x250_52
+    21300106: sadness-500x250_53
+    21300108: sadness-500x250_54
+    21300110: sadness-500x250_55
+    21300112: sadness-500x250_56
+    21300114: sadness-500x250_57
+    21300116: sadness-500x250_58
+    21300118: sadness-500x250_59
+    21300120: sadness-500x250_60
+    21300122: sadness-500x250_61
+    21300124: sadness-500x250_62
+    21300126: sadness-500x250_63
+    21300128: sadness-500x250_64
+    21300130: sadness-500x250_65
+    21300132: sadness-500x250_66
+    21300134: sadness-500x250_67
+    21300136: sadness-500x250_68
+    21300138: sadness-500x250_69
+    21300140: sadness-500x250_70
+    21300142: sadness-500x250_71
+    21300144: sadness-500x250_72
+    21300146: sadness-500x250_73
+    21300148: sadness-500x250_74
+    21300150: sadness-500x250_75
+    21300152: sadness-500x250_76
+    21300154: sadness-500x250_77
+    21300156: sadness-500x250_78
+    21300158: sadness-500x250_79
+    21300160: sadness-500x250_80
+    21300162: sadness-500x250_81
+    21300164: sadness-500x250_82
+    21300166: sadness-500x250_83
+    21300168: sadness-500x250_84
+    21300170: sadness-500x250_85
+    21300172: sadness-500x250_86
+    21300174: sadness-500x250_87
+    21300176: sadness-500x250_88
+    21300178: sadness-500x250_89
+    21300180: sadness-500x250_90
+    21300182: sadness-500x250_91
+    21300184: sadness-500x250_92
+    21300186: sadness-500x250_93
+    21300188: sadness-500x250_94
+    21300190: sadness-500x250_95
+    21300192: sadness-500x250_96
+    21300194: sadness-500x250_97
+    21300196: sadness-500x250_98
+    21300198: sadness-500x250_99
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sadness-500x250_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3842
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_1
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 3842
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_2
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3842
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_3
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 3842
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_4
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 3842
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_5
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 3842
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_6
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 3842
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_7
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 3842
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3588
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_9
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 3588
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_10
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3588
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_11
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 3588
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_12
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 3588
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_13
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 3588
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_14
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 3588
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_15
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 3588
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3334
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_17
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 3334
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_18
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3334
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_19
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 3334
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_20
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 3334
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_21
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 3334
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_22
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 3334
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_23
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 3334
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3080
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 3080
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_26
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3080
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_27
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 3080
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_28
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 3080
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_29
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 3080
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_30
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 3080
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_31
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 3080
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2826
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_33
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2826
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_34
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2826
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_35
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2826
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_36
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2826
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_37
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 2826
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_38
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 2826
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_39
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 2826
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2572
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_41
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2572
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_42
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2572
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_43
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2572
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_44
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2572
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_45
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 2572
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_46
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 2572
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_47
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 2572
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2318
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_49
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2318
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_50
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2318
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_51
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2318
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_52
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2318
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_53
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 2318
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_54
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 2318
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_55
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 2318
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2064
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_57
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2064
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_58
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2064
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_59
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2064
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_60
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2064
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_61
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 2064
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_62
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 2064
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_63
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 2064
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1810
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_65
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1810
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_66
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1810
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_67
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1810
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_68
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1810
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_69
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 1810
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_70
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 1810
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_71
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 1810
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1556
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_73
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1556
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_74
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1556
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_75
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1556
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_76
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1556
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_77
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 1556
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_78
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 1556
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_79
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 1556
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1302
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_81
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1302
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_82
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1302
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_83
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1302
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_84
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1302
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_85
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 1302
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_86
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 1302
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_87
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 1302
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_89
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1048
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_90
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1048
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_91
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1048
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_92
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1048
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_93
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 1048
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_94
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 1048
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_95
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 1048
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_97
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 794
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_98
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 794
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sadness-500x250_99
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 794
+        width: 505
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

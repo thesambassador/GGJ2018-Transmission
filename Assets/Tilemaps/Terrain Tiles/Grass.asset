@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Grass
   m_EditorClassIdentifier: 
   m_Sprites:
-  - {fileID: 21300042, guid: 83e70d9801f401647aff48118bca2116, type: 3}
+  - {fileID: 21300000, guid: 33e12bfbbaddf0a4293af16904224554, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
