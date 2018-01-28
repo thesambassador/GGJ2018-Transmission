@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sadness : MonoBehaviour {
+public class Fear : MonoBehaviour {
 
-    public PatrolMonster[] monsters;
+    public OnOffWall[] walls;
 
     public float WailOffTime = 7;
     public float WailOnTime = 5;
@@ -13,30 +13,31 @@ public class Sadness : MonoBehaviour {
 
     Animator _animator;
 
-	// Use this for initialization
-	void Start () {
-        monsters = FindObjectsOfType<PatrolMonster>();
-        print("yay");
-
-
+    // Use this for initialization
+    void Start()
+    {
+        walls = FindObjectsOfType<OnOffWall>();
+        //print("yay");
         _animator = GetComponent<Animator>();
         StartCoroutine("WailForSeconds");
-        print("yay2");
+        //print("yay2");
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
 
 
-	}
+
+    }
 
     void FreezeAllMonsters(bool frozen = true)
     {
-        foreach (PatrolMonster monster in monsters)
+        foreach (OnOffWall wall in walls)
         {
-            monster.Activate(new PowerEventData(frozen, transform.position, 500));
+            wall.Activate(new PowerEventData(frozen, transform.position, 500));
         }
     }
 
@@ -63,14 +64,14 @@ public class Sadness : MonoBehaviour {
             if (wailActive)
             {
                 print("wait for wailtime");
-                yield return new WaitForSeconds(WailOnTime);
                 _animator.SetBool("play", false);
+                yield return new WaitForSeconds(WailOnTime);
             }
             else
             {
+                _animator.SetBool("play", true);
                 print("wait for wailofftime");
                 yield return new WaitForSeconds(WailOffTime);
-                _animator.SetBool("play", true);
             }
             SwapWail();
         }

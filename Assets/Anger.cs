@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sadness : MonoBehaviour {
+public class Anger : MonoBehaviour {
 
-    public PatrolMonster[] monsters;
+    public MoveObjectOnPower[] walls;
 
     public float WailOffTime = 7;
     public float WailOnTime = 5;
@@ -13,30 +13,31 @@ public class Sadness : MonoBehaviour {
 
     Animator _animator;
 
-	// Use this for initialization
-	void Start () {
-        monsters = FindObjectsOfType<PatrolMonster>();
-        print("yay");
-
-
+    // Use this for initialization
+    void Start()
+    {
         _animator = GetComponent<Animator>();
+        walls = FindObjectsOfType<MoveObjectOnPower>();
+        //print("yay");
         StartCoroutine("WailForSeconds");
-        print("yay2");
+        //print("yay2");
+        
+        
+    }
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+    // Update is called once per frame
+    void Update()
+    {
 
 
-	}
+
+    }
 
     void FreezeAllMonsters(bool frozen = true)
     {
-        foreach (PatrolMonster monster in monsters)
+        foreach (MoveObjectOnPower wall in walls)
         {
-            monster.Activate(new PowerEventData(frozen, transform.position, 500));
+            wall.Activate(new PowerEventData(frozen, transform.position, 500));
         }
     }
 
@@ -45,11 +46,13 @@ public class Sadness : MonoBehaviour {
         print("wail");
         if (wailActive)
         {
+            _animator.SetBool("play", false);
             FreezeAllMonsters(false);
             wailActive = false;
         }
         else
         {
+            _animator.SetBool("play", true);
             FreezeAllMonsters(true);
             wailActive = true;
         }
@@ -60,17 +63,13 @@ public class Sadness : MonoBehaviour {
         print("gogo");
         while (true)
         {
-            if (wailActive)
-            {
-                print("wait for wailtime");
+            if (wailActive) { 
+            
                 yield return new WaitForSeconds(WailOnTime);
-                _animator.SetBool("play", false);
             }
             else
             {
-                print("wait for wailofftime");
                 yield return new WaitForSeconds(WailOffTime);
-                _animator.SetBool("play", true);
             }
             SwapWail();
         }

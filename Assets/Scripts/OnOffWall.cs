@@ -56,7 +56,12 @@ public class OnOffWall : MonoBehaviour {
 
     void Activate(bool powerOn)
     {
-        bool up = startsUp && !powerOn;
+        bool up;
+
+        if (startsUp)
+            up = !powerOn;
+        else
+            up = powerOn;
 
         if (up)
         {
@@ -74,7 +79,7 @@ public class OnOffWall : MonoBehaviour {
 
     }
 
-    void Activate(PowerEventData powerOn)
+    public void Activate(PowerEventData powerOn)
     {
         Activate(powerOn.active);
     }

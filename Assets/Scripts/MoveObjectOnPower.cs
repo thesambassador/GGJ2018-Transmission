@@ -30,7 +30,7 @@ public class MoveObjectOnPower : MonoBehaviour {
         _rigidBody.MovePosition(Vector2.MoveTowards(transform.position, currentTargetPosition, moveSpeed * Time.deltaTime));
 	}
 
-    void Activate(PowerEventData on)
+    public void Activate(PowerEventData on)
     {
         if (on.active)
         {

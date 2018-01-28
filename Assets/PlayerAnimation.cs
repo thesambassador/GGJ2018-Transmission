@@ -32,7 +32,7 @@ public class PlayerAnimation : MonoBehaviour {
             {
                 if (vel.x > 0)
                 {
-                    print("right");
+                    //print("right");
                     _animator.SetBool(animUp, false);
                     _animator.SetBool(animDown, false);
                     _animator.SetBool(animLeft, false);
@@ -40,7 +40,7 @@ public class PlayerAnimation : MonoBehaviour {
                 }
                 else
                 {
-                    print("left");
+                    //print("left");
                     _animator.SetBool(animUp, false);
                     _animator.SetBool(animDown, false);
                     _animator.SetBool(animLeft, true);
