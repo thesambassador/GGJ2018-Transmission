@@ -20,7 +20,6 @@ public class PowerText : MonoBehaviour {
         ToggleText(songs.IsPowerActive(power));
 	}
 	
-
     void ToggleText(bool active)
     {
         if (active)
@@ -31,5 +30,10 @@ public class PowerText : MonoBehaviour {
         {
             textComponent.text = powerName + ": Off";
         }
+    }
+
+    void ToggleText(PowerEventData active)
+    {
+        ToggleText(active.active);
     }
 }

@@ -3,7 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PowerToggleEvent : UnityEvent<bool>{}
+public class PowerEventData
+{
+    public PowerEventData(bool isActive, Vector2 powerPosition, float powerRadius)
+    {
+        playerPosition = powerPosition;
+        active = isActive;
+        radius = powerRadius;
+    }
+    public bool active;
+    public Vector2 playerPosition;
+    public float radius;
+}
+
+public class PowerToggleEvent : UnityEvent<PowerEventData> {}
 
 public enum PlayerPowers
 {
@@ -19,6 +32,7 @@ public class PlayerSongs : MonoBehaviour {
 
     public bool[] unlockedPowers;
     public bool[] activatedPowers;
+    public float[] powerRanges;
 
     public PowerToggleEvent[] powerCallbacks;
 
@@ -46,11 +60,11 @@ public class PlayerSongs : MonoBehaviour {
         activatedPowers[powerNum] = !activatedPowers[powerNum];
         if (powerCallbacks[powerNum] != null)
         {
-            powerCallbacks[powerNum].Invoke(activatedPowers[powerNum]);
+            powerCallbacks[powerNum].Invoke(new PowerEventData(activatedPowers[powerNum], transform.position, powerRanges[powerNum]));
         }
     }
 
-    public void AddPowerListener(PlayerPowers power, UnityAction<bool> action)
+    public void AddPowerListener(PlayerPowers power, UnityAction<PowerEventData> action)
     {
         int powerNum = (int)power;
 
